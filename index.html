@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="B+Designs - Transforming Ideas into Digital Experiences. Professional IT solutions including UI/UX Design, Website Development, Digital Marketing, and Social Media Management.">
+  <meta name="keywords" content="IT solutions, web development, UI/UX design, digital marketing, social media management">
+  <meta name="author" content="B+Designs">
+  <title>B+Designs | Transforming Ideas into Digital Experiences</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span>B+</span>Designs
+      </a>
+      
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        
+        <div class="d-flex align-items-center gap-3">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="bi bi-moon-fill"></i>
+          </button>
+          <a href="contact.html" class="btn-primary-custom d-none d-lg-inline-block">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg-shapes">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-shape hero-shape-3"></div>
+    </div>
+    
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <span class="hero-badge">
+              <i class="bi bi-stars me-2"></i>Award-Winning Digital Agency
+            </span>
+            <h1 class="hero-title">
+              Transforming Ideas into <span>Digital Experiences</span>
+            </h1>
+            <p class="hero-description">
+              We craft innovative digital solutions that help businesses thrive in the modern world. From stunning designs to powerful development, we bring your vision to life.
+            </p>
+            <div class="hero-buttons">
+              <a href="contact.html" class="btn-primary-custom">
+                Start Your Project <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+              <a href="portfolio.html" class="btn-outline-custom" style="border-color: white; color: white;">
+                View Our Work
+              </a>
+            </div>
+            
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <h3 data-target="250" class="stat-number">0+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="hero-stat">
+                <h3 data-target="50" class="stat-number">0+</h3>
+                <p>Happy Clients</p>
+              </div>
+              <div class="hero-stat">
+                <h3 data-target="8" class="stat-number">0+</h3>
+                <p>Years Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=500&fit=crop" alt="Team collaborating on digital projects" class="img-fluid rounded-4">
+            
+            <div class="floating-card floating-card-1">
+              <i class="bi bi-palette-fill" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6); color: white;"></i>
+              <div>
+                <h5>UI/UX Design</h5>
+                <p>Beautiful interfaces</p>
+              </div>
+            </div>
+            
+            <div class="floating-card floating-card-2">
+              <i class="bi bi-code-slash" style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white;"></i>
+              <div>
+                <h5>Development</h5>
+                <p>Clean, scalable code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section section-padding" id="services">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="hero-badge" style="background: rgba(124, 58, 237, 0.1); color: var(--secondary);">
+          Our Services
+        </span>
+        <h2 class="section-title mt-3">What We Offer</h2>
+        <p class="section-subtitle">
+          Comprehensive digital solutions tailored to elevate your brand and accelerate your business growth
+        </p>
+      </div>
+      
+      <div class="row g-4">
+        <!-- UI/UX Design -->
+        <div class="col-lg-3 col-md-6 fade-in delay-1">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">
+              <i class="bi bi-palette-fill"></i>
+            </div>
+            <h4>UI/UX Design</h4>
+            <p>Create intuitive, visually stunning interfaces that users love and remember.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> User Research</li>
+              <li><i class="bi bi-check-circle-fill"></i> Wireframing</li>
+              <li><i class="bi bi-check-circle-fill"></i> Prototyping</li>
+              <li><i class="bi bi-check-circle-fill"></i> Design Systems</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Website Development -->
+        <div class="col-lg-3 col-md-6 fade-in delay-2">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #1e3a8a, #3b82f6);">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h4>Web Development</h4>
+            <p>Build fast, secure, and scalable websites that drive conversions and growth.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> Custom Development</li>
+              <li><i class="bi bi-check-circle-fill"></i> E-commerce</li>
+              <li><i class="bi bi-check-circle-fill"></i> CMS Integration</li>
+              <li><i class="bi bi-check-circle-fill"></i> API Development</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Digital Marketing -->
+        <div class="col-lg-3 col-md-6 fade-in delay-3">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #059669, #10b981);">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h4>Digital Marketing</h4>
+            <p>Reach your target audience with data-driven marketing strategies that convert.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> SEO Optimization</li>
+              <li><i class="bi bi-check-circle-fill"></i> PPC Campaigns</li>
+              <li><i class="bi bi-check-circle-fill"></i> Content Strategy</li>
+              <li><i class="bi bi-check-circle-fill"></i> Analytics</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Social Media -->
+        <div class="col-lg-3 col-md-6 fade-in delay-4">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #dc2626, #f97316);">
+              <i class="bi bi-megaphone-fill"></i>
+            </div>
+            <h4>Social Media</h4>
+            <p>Build a strong social presence that engages your audience and grows your brand.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> Content Creation</li>
+              <li><i class="bi bi-check-circle-fill"></i> Community Management</li>
+              <li><i class="bi bi-check-circle-fill"></i> Paid Advertising</li>
+              <li><i class="bi bi-check-circle-fill"></i> Influencer Marketing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Graphic Design -->
+        <div class="col-lg-3 col-md-6 fade-in delay-1">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #ec4899, #f472b6);">
+              <i class="bi bi-brush-fill"></i>
+            </div>
+            <h4>Graphic Design</h4>
+            <p>Eye-catching visuals that communicate your brand message and captivate your audience.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> Print Design</li>
+              <li><i class="bi bi-check-circle-fill"></i> Digital Graphics</li>
+              <li><i class="bi bi-check-circle-fill"></i> Packaging Design</li>
+              <li><i class="bi bi-check-circle-fill"></i> Illustration</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interior Architecture -->
+        <div class="col-lg-3 col-md-6 fade-in delay-2">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #0891b2, #22d3ee);">
+              <i class="bi bi-building"></i>
+            </div>
+            <h4>Interior Architecture</h4>
+            <p>Transform spaces into functional, beautiful environments that inspire and delight.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> Space Planning</li>
+              <li><i class="bi bi-check-circle-fill"></i> 3D Visualization</li>
+              <li><i class="bi bi-check-circle-fill"></i> Material Selection</li>
+              <li><i class="bi bi-check-circle-fill"></i> Project Management</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Video Animation -->
+        <div class="col-lg-3 col-md-6 fade-in delay-3">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #8b5cf6, #a78bfa);">
+              <i class="bi bi-camera-reels-fill"></i>
+            </div>
+            <h4>Video Animation</h4>
+            <p>Engaging motion graphics and animations that bring your stories to life.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> 2D/3D Animation</li>
+              <li><i class="bi bi-check-circle-fill"></i> Motion Graphics</li>
+              <li><i class="bi bi-check-circle-fill"></i> Explainer Videos</li>
+              <li><i class="bi bi-check-circle-fill"></i> Video Editing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Branding -->
+        <div class="col-lg-3 col-md-6 fade-in delay-4">
+          <div class="service-card">
+            <div class="service-icon" style="background: linear-gradient(135deg, #f59e0b, #fbbf24);">
+              <i class="bi bi-award-fill"></i>
+            </div>
+            <h4>Branding</h4>
+            <p>Build a powerful brand identity that resonates with your audience and stands out.</p>
+            <ul class="service-features">
+              <li><i class="bi bi-check-circle-fill"></i> Logo Design</li>
+              <li><i class="bi bi-check-circle-fill"></i> Brand Strategy</li>
+              <li><i class="bi bi-check-circle-fill"></i> Visual Identity</li>
+              <li><i class="bi bi-check-circle-fill"></i> Brand Guidelines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="services.html" class="btn-primary-custom">
+          View All Services <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-number" data-target="250">0+</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-number" data-target="50">0+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-number" data-target="15">0+</div>
+            <div class="stat-label">Team Members</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-number" data-target="12">0+</div>
+            <div class="stat-label">Awards Won</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section class="clients-section">
+    <div class="container">
+      <p class="text-center text-muted mb-4">Trusted by innovative companies worldwide</p>
+      <div class="row align-items-center justify-content-center g-4">
+        <div class="col-6 col-md-4 col-lg-2 text-center">
+          <div class="client-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="currentColor">
+              <text x="10" y="28" font-family="Space Grotesk" font-weight="700" font-size="18">TechCorp</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 text-center">
+          <div class="client-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="currentColor">
+              <text x="10" y="28" font-family="Space Grotesk" font-weight="700" font-size="18">Innovate</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 text-center">
+          <div class="client-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="currentColor">
+              <text x="10" y="28" font-family="Space Grotesk" font-weight="700" font-size="18">StartupX</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 text-center">
+          <div class="client-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="currentColor">
+              <text x="10" y="28" font-family="Space Grotesk" font-weight="700" font-size="18">CloudNet</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 text-center">
+          <div class="client-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="currentColor">
+              <text x="10" y="28" font-family="Space Grotesk" font-weight="700" font-size="18">DataFlow</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="hero-badge" style="background: rgba(124, 58, 237, 0.1); color: var(--secondary);">
+          Testimonials
+        </span>
+        <h2 class="section-title mt-3">What Our Clients Say</h2>
+        <p class="section-subtitle">
+          Do not just take our word for it - hear from some of our satisfied clients
+        </p>
+      </div>
+      
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-4 justify-content-center">
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card fade-in">
+                  <div class="testimonial-quote">"</div>
+                  <p class="testimonial-text">
+                    B+Designs transformed our online presence completely. Their attention to detail and creative approach exceeded our expectations.
+                  </p>
+                  <div class="testimonial-stars mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="John Smith" class="testimonial-avatar">
+                    <div class="testimonial-info">
+                      <h5>John Smith</h5>
+                      <p>CEO, TechCorp</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card fade-in delay-1">
+                  <div class="testimonial-quote">"</div>
+                  <p class="testimonial-text">
+                    The team delivered our e-commerce platform on time and on budget. Sales have increased by 150% since launch. Highly recommend!
+                  </p>
+                  <div class="testimonial-stars mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Sarah Johnson" class="testimonial-avatar">
+                    <div class="testimonial-info">
+                      <h5>Sarah Johnson</h5>
+                      <p>Founder, StyleHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card fade-in delay-2">
+                  <div class="testimonial-quote">"</div>
+                  <p class="testimonial-text">
+                    Their digital marketing strategies helped us reach new audiences we never thought possible. The ROI has been phenomenal.
+                  </p>
+                  <div class="testimonial-stars mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                  <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Michael Chen" class="testimonial-avatar">
+                    <div class="testimonial-info">
+                      <h5>Michael Chen</h5>
+                      <p>Marketing Director, GrowthCo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Transform Your Digital Presence?</h2>
+        <p class="cta-text">
+          Let us help you create something extraordinary. Get in touch with our team today and start your journey towards digital excellence.
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="contact.html" class="btn-primary-custom">
+            Start a Project <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+          <a href="tel:+1234567890" class="btn-outline-custom" style="border-color: white; color: white;">
+            <i class="bi bi-telephone me-2"></i> Call Us Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a class="footer-brand" href="index.html">
+            <span>B+</span>Designs
+          </a>
+          <p class="footer-description">
+            Transforming ideas into exceptional digital experiences. Your success is our passion.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Services</h5>
+          <ul class="footer-links">
+            <li><a href="services.html">UI/UX Design</a></li>
+            <li><a href="services.html">Web Development</a></li>
+            <li><a href="services.html">Digital Marketing</a></li>
+            <li><a href="services.html">Social Media</a></li>
+            <li><a href="services.html">Branding</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-title">Contact Info</h5>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt me-2"></i> 123 Business Street, Suite 100</li>
+            <li><i class="bi bi-envelope me-2"></i> hello@bplusdesigns.com</li>
+            <li><i class="bi bi-telephone me-2"></i> +1 (234) 567-8900</li>
+            <li><i class="bi bi-clock me-2"></i> Mon - Fri: 9:00 AM - 6:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 B+Designs. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

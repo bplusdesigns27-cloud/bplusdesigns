@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact B+Designs - Get in touch with us for your next digital project.">
+  <title>Contact Us | B+Designs</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span>B+</span>Designs</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <button class="theme-toggle" id="themeToggle"><i class="bi bi-moon-fill"></i></button>
+          <a href="contact.html" class="btn-primary-custom d-none d-lg-inline-block">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="page-header-content text-center">
+        <h1 class="page-title fade-in">Contact Us</h1>
+        <p class="page-subtitle mx-auto fade-in delay-1">
+          Have a project in mind? We would love to hear from you. Let us start a conversation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section-padding pb-0">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 fade-in delay-1">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h5>Our Office</h5>
+            <p style="color: var(--gray-500); margin: 0;">123 Business Street<br>Suite 100, New York, NY 10001</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 fade-in delay-2">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <h5>Email Us</h5>
+            <p style="color: var(--gray-500); margin: 0;">
+              <a href="mailto:hello@bplusdesigns.com">hello@bplusdesigns.com</a><br>
+              <a href="mailto:support@bplusdesigns.com">support@bplusdesigns.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 fade-in delay-3">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <h5>Call Us</h5>
+            <p style="color: var(--gray-500); margin: 0;">
+              <a href="tel:+12345678900">+1 (234) 567-8900</a><br>
+              <a href="tel:+12345678901">+1 (234) 567-8901</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 fade-in delay-4">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="bi bi-clock-fill"></i>
+            </div>
+            <h5>Working Hours</h5>
+            <p style="color: var(--gray-500); margin: 0;">
+              Mon - Fri: 9:00 AM - 6:00 PM<br>
+              Sat - Sun: Closed
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Map -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-5">
+        
+        <!-- Contact Form -->
+        <div class="col-lg-7 fade-in-left">
+          <div class="contact-form">
+            <h3 class="mb-4">Send Us a Message</h3>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Full Name *</label>
+                  <input type="text" class="form-control-custom" id="name" placeholder="John Doe" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address *</label>
+                  <input type="email" class="form-control-custom" id="email" placeholder="john@example.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control-custom" id="phone" placeholder="+1 (234) 567-8900">
+                </div>
+                <div class="col-md-6">
+                  <label for="company" class="form-label">Company Name</label>
+                  <input type="text" class="form-control-custom" id="company" placeholder="Your Company">
+                </div>
+                <div class="col-md-6">
+                  <label for="service" class="form-label">Service Interested In</label>
+                  <select class="form-control-custom" id="service">
+                    <option value="">Select a service</option>
+                    <option value="uiux">UI/UX Design</option>
+                    <option value="web">Web Development</option>
+                    <option value="marketing">Digital Marketing</option>
+                    <option value="social">Social Media Management</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="budget" class="form-label">Budget Range</label>
+                  <select class="form-control-custom" id="budget">
+                    <option value="">Select your budget</option>
+                    <option value="small">$1,000 - $5,000</option>
+                    <option value="medium">$5,000 - $15,000</option>
+                    <option value="large">$15,000 - $50,000</option>
+                    <option value="enterprise">$50,000+</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Project Details *</label>
+                  <textarea class="form-control-custom" id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="newsletter">
+                    <label class="form-check-label" for="newsletter" style="color: var(--gray-500);">
+                      Subscribe to our newsletter for tips and updates
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-primary-custom w-100">
+                    Send Message <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Map & Social -->
+        <div class="col-lg-5 fade-in-right">
+          <!-- Map Placeholder -->
+          <div class="glass-card mb-4" style="height: 300px; display: flex; align-items: center; justify-content: center; background: var(--gray-100);">
+            <div class="text-center">
+              <i class="bi bi-map" style="font-size: 4rem; color: var(--gray-400);"></i>
+              <p class="mt-3" style="color: var(--gray-500);">Interactive Map<br><small>123 Business Street, New York</small></p>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="glass-card">
+            <h5 class="mb-4">Connect With Us</h5>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-facebook"></i> Facebook
+              </a>
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-twitter-x"></i> Twitter
+              </a>
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-instagram"></i> Instagram
+              </a>
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-linkedin"></i> LinkedIn
+              </a>
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-dribbble"></i> Dribbble
+              </a>
+              <a href="#" class="btn-outline-custom d-flex align-items-center gap-2" style="padding: 10px 20px;">
+                <i class="bi bi-behance"></i> Behance
+              </a>
+            </div>
+          </div>
+          
+          <!-- Quick Response -->
+          <div class="glass-card mt-4" style="background: var(--gradient-primary); border: none;">
+            <div class="text-white">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-lightning-charge-fill" style="font-size: 2rem;"></i>
+                <h5 class="mb-0">Quick Response</h5>
+              </div>
+              <p style="opacity: 0.9; margin: 0;">
+                We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section-padding" style="background: var(--gray-100);">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="hero-badge" style="background: rgba(124, 58, 237, 0.1); color: var(--secondary);">
+          FAQ
+        </span>
+        <h2 class="section-title mt-3">Common Questions</h2>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="contactFaq">
+            
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden fade-in delay-1">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cfaq1">
+                  How do I get started with a project?
+                </button>
+              </h2>
+              <div id="cfaq1" class="accordion-collapse collapse show" data-bs-parent="#contactFaq">
+                <div class="accordion-body">
+                  Simply fill out the contact form above or reach out via email or phone. We will schedule a free consultation to discuss your project requirements, timeline, and budget. From there, we will provide a detailed proposal.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden fade-in delay-2">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cfaq2">
+                  What information should I prepare before contacting you?
+                </button>
+              </h2>
+              <div id="cfaq2" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                <div class="accordion-body">
+                  It helps to have a general idea of your project scope, target audience, timeline expectations, and budget range. If you have reference websites or specific features in mind, that is also helpful. But do not worry if you are still figuring things out - we are here to guide you!
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden fade-in delay-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cfaq3">
+                  Do you work with clients internationally?
+                </button>
+              </h2>
+              <div id="cfaq3" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                <div class="accordion-body">
+                  Yes! We work with clients from all over the world. We use video conferencing, project management tools, and clear communication processes to ensure smooth collaboration regardless of location or time zone.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 rounded-3 overflow-hidden fade-in delay-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cfaq4">
+                  What is your typical response time?
+                </button>
+              </h2>
+              <div id="cfaq4" class="accordion-collapse collapse" data-bs-parent="#contactFaq">
+                <div class="accordion-body">
+                  We aim to respond to all inquiries within 24 hours during business days. For existing clients with ongoing projects, we often respond much faster. Urgent matters can always be addressed via phone.
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a class="footer-brand" href="index.html"><span>B+</span>Designs</a>
+          <p class="footer-description">Transforming ideas into exceptional digital experiences.</p>
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Services</h5>
+          <ul class="footer-links">
+            <li><a href="services.html">UI/UX Design</a></li>
+            <li><a href="services.html">Web Development</a></li>
+            <li><a href="services.html">Digital Marketing</a></li>
+            <li><a href="services.html">Social Media</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-title">Contact Info</h5>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt me-2"></i> 123 Business Street, Suite 100</li>
+            <li><i class="bi bi-envelope me-2"></i> hello@bplusdesigns.com</li>
+            <li><i class="bi bi-telephone me-2"></i> +1 (234) 567-8900</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 B+Designs. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
