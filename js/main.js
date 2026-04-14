@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   function isValidEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+₹/;
     return re.test(email);
   }
   
